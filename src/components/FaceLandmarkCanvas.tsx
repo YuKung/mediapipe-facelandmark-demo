@@ -79,7 +79,7 @@ const FaceLandmarkCanvas = () => {
           className="self-end bg-purple-700 hover:bg-purple-600 transition text-white px-2 py-1 rounded mb-2 shadow-md text-sm sm:text-base"
           onClick={toggleAvatarView}
         >
-          {avatarView ? "Switch to Landmark View" : "Switch to Avatar View"}
+          {avatarView ? "切换到面部网格视角" : "切换到虚拟形象视角"}
         </button>
         <button
           className="self-end bg-purple-700 hover:bg-purple-600 transition text-white px-2 py-1 rounded mb-2 shadow-md text-sm sm:text-base"
