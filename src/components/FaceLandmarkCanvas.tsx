@@ -85,7 +85,7 @@ const FaceLandmarkCanvas = () => {
           className="self-end bg-purple-700 hover:bg-purple-600 transition text-white px-2 py-1 rounded mb-2 shadow-md text-sm sm:text-base"
           onClick={toggleAvatarCreatorView}
         >
-          {"Customize your Avatar!"}
+          {"定制你的虚拟形象!"}
         </button>
       </div>
       <div className="flex justify-center">

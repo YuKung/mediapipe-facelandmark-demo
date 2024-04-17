@@ -26,7 +26,7 @@ export default function Home() {
         />
       </Head>
       <h1 className="text-xl md:text-4xl font-bold mb-2 text-shadow text-center">
-        虚拟形象
+        科大讯飞智能虚拟形象
       </h1>
       {/* <p className="mt-4 mb-4 text-center px-4 md:text-lg text-sm">
         Detect the most prominent face from an input image, then estimate 478 3D
