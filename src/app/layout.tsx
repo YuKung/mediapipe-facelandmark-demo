@@ -15,26 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {/* {children}
-        <p className="fixed bottom-5 left-1/2 transform -translate-x-1/2 text-white text-shadow text-center md:text-lg text-sm">
-          Check out the
-          <a
-            href="https://developers.google.com/mediapipe/solutions/vision/face_landmarker"
-            className="text-purple-200 hover:text-purple-100 underline ml-1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            MediaPipe Face Landmark documentation
-          </a>{" "}
-          for more details.
-        </p> */}
-        <Link
-          href="https://github.com/jays0606/mediapipe-facelandmark-demo"
-          className="group fixed bottom-5 right-5"
-          aria-label="TaxPal on GitHub"
-        >
+    {/* MediaPipe Face Landmark documentation */}
+          {/* </a>{" "}
+          for more details. */}
+        {/* </p> */}
+        {/* <Link */}
+          {/* href="https://github.com/jays0606/mediapipe-facelandmark-demo" */}
+          {/* className="group fixed bottom-5 right-5" */}
+          {/* aria-label="TaxPal on GitHub" */}
+        {/* > */}
           <svg
             aria-hidden="true"
             className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700 fixed bottom-5 right-5"
