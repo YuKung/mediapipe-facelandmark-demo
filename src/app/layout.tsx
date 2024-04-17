@@ -16,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}>
-        {children}
+      <body className={inter.className}>
+        {/* {children}
         <p className="fixed bottom-5 left-1/2 transform -translate-x-1/2 text-white text-shadow text-center md:text-lg text-sm">
           Check out the
           <a
